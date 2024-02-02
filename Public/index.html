@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Smart Dietician</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-clock"></i>  Free service available 24*7
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> A.I. Help
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!-- <a href="index.html" class="logo me-auto"><img src="./assets/img/kkkkkkkk.jpg" width="250px" height="150px" alt=""></a> -->
+      <h2 style="color: rgb(126, 62, 210);"> <b> Smart Dietician</b></h2>
+     
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#doctors">A.I. Diet Planner</a></li> -->
+  
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        
+      <a href="http://localhost:3000" class="appointment-btn scrollto" style="color: white;"><span class="d-none d-md-inline">Creat Your Plan</a>
+      </nav>
+<!-- 
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Creat Your</span> Plan</a> -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active" style="background-image: url(assets/img/pexels-lauren-heaton-8633675.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>A.I. Diet Planner</span></h2>
+     
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+     
+        <div class="carousel-item" style="background-image: url(assets/img/pexels-suzy-hazelwood-1120581.jpg)">
+          <div class="container">
+            <h2>Put your diet on autopilot
+            </h2>
+            <p>Eat This Much creates personalized meal plans based on your food preferences, budget, and schedule. Reach your diet and nutritional goals with our calorie calculator, weekly meal plans, grocery lists and more. Create your meal plan right here in seconds.
+            </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+
+        <div class="carousel-item" style="background-image: url(assets/img/pexels-marianna-ole-764925.jpg)">
+          <div class="container">
+            <h2>Take the anxiety out of picking what to eat</h2>
+            <p>Make the important decisions ahead of time and on your own schedule. Then there's nothing to worry about when it's time to eat.
+            </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            
+              <img src="./assets/img/serviceone.jpg" alt="" style="height: 200px; width: 200px; padding: 30px;">
+              <h4 class="title"><a href="">Custom Nutritional Targets</a></h4>
+
+            </div>
+           
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+           
+              <img src="./assets/img/servicetwo.jpg" alt="" style="height: 200px; width: 200px; padding: 30px;">
+              <h4 class="title"><a href="">Fitness Care </a></h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              
+              <img src="./assets/img/servicethree.jpg" alt="" style="height: 200px; width: 200px; padding: 30px;">
+              <h4 class="title"><a href="#">Dietary Needs</a></h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+            
+              <img src="./assets/img/servicefour.jpg" alt="" style="height: 200px; width: 200px; padding: 30px;">
+              <h4 class="title"><a href="">Adjust Meal Preferences</a></h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <h3>Welcome to our diet plan website! We are a team of nutritionists and dieticians dedicated to helping you achieve your health and fitness goals through personalized meal plans and expert advice.
+
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/dietician-major.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>Our mission is to provide you with the tools and resources you need to make healthy eating a sustainable lifestyle choice. <br>  We believe that food is not just fuel for the body, but a source of enjoyment and pleasure, and we strive to help you find a balance between nourishing your body and indulging in the foods you love.
+
+            </h3>
+              <br>
+              <br>
+
+            <p>
+              Our team of experts has years of experience in the nutrition and health fields, and we use the latest research and science to create meal plans that are tailored to your individual needs and preferences. Whether you're looking to lose weight, manage a chronic condition, or simply improve your overall health and wellbeing, we're here to support you every step of the way.
+
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <h1 style="display: flex; justify-content: center; align-items: center;">Get Your Weekly Meal Plan</h1> <br> <br> <br>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-receipt"></i>
+              <h4>Meal Plan Generator</h4>
+              <p>This is where we make things much easier for you...
+              </p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Powerful Recipe Search</h4>
+              <p>Instead of using our automatic recipe finder you may wish to enter recipes manually.
+              </p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Grocery List
+              </h4>
+              <p>After your meal plan has been created you can check out the grocery list function, which lets you know all the ingredients you need to make the recipes.
+              </p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Download your plan to PDF
+              </h4>
+              <p>With My Diet Meal Plan Premier you can view your plans offline by downloading them to PDF. Try sticking  you </p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/meal-plan-generator.svg");' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+            <h4 class="title"><a href="">Learn. Track. Improve.</a></h4>
+            <p class="description">Keeping a food diary helps you understand your habits and increases your likelihood of hitting your goals.
+
+            </p>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-hospital-user"></i></div>
+            <h4 class="title"><a href="">Logging Simplified.
+            </a></h4>
+            <p class="description">Scan barcodes, save meals and recipes, and use Quick Tools for fast and easy food tracking.
+
+            </p>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-notes-medical"></i></div>
+            <h4 class="title"><a href="">Stay Motivated.
+            </a></h4>
+            <p class="description">Join the World’s Largest Fitness Community for advice, tips, and support 24/7.
+
+            </p>
+          </div>
+        </dv>
+
+      </div>
+    
+    </section>
+    <br>
+ 
+
+<div class="patient">
+ <h1 style=" display: flex; justify-content: center;align-items: center;">PATIENT INFORMATION </h1> <br>
+</div>
+  <hr>
+  <div class="container  w-100" style="background-color: white; display: flex; flex-wrap: wrap; ">
+
+    <div class="con1 mt-4 me-5" style="width: 500px; display: flex; flex-direction: column; ">
+      <div id="ml-3" class="ml-3">
+        <label for="disabledSelect" class="form-label" >Age</label>
+        <select id="disabledSelect" class="form-select">
+          <option value="">Baby (0-3 Years Old)</option>
+          <option value="">Child (4-12 Years Old)</option>
+          <option value="">Teenagers (13-19 Years Old)</option>
+          <option value="">Young Adult (20-35 Years Old)</option>
+          <option value="">Adult (36-59 Years Old)</option>
+          <option value="">Senior (60 Yeares old) </option>
+
+        </select>
+      </div>
+      <div id="ml-4" class="ml-3 mt-3">
+        <label for="disabledSelect" class="form-label">Weight</label>
+        <select id="disabledSelect" class="form-select">
+
+        </select>
+      </div>
+
+    </div>
+
+    <div class="con2  mt-4"
+      style="width: 500px; display: flex; flex-direction: column; ; ">
+      <div class="ml-3">
+        <label for="disabledSelect" class="form-label">Gender</label>
+        <select id="disabledSelect" class="form-select" style="margin-bottom: -10px;">
+          <option>Male</option>
+          <option>Female</option>
+          <Option>Others</Option>
+      </div>
+      </select>
+      <div class="ml-3 mt-4">
+        <label for="disabledSelect" class="form-label">height</label>
+        <select id="disabledSelect" class="form-select">
+
+        </select>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="con-3 w-100 mt-5">
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Do you have any medical conditions or dietary
+        restrictions?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">What is your daily physical activity level?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">What are your goals for your diet, such as weight loss, weight
+        gain or maintenance?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">How much water do you consume each day?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Do you eat out or cook most of your meals at home?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Do you have any food allergies or intolerances?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"> How many meals do you typically eat in a day?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">How often do you consume alcohol or sugary drinks?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">What are some potential barriers to sticking to a healthy diet,
+        such as time constraints or budget limitations?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">What are your favorite types of exercise?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"> What are your typical eating patterns, including the times of
+        day that you eat and the types of foods you typically consume?</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+    </div>
+    
+    
+    <br>
+
+    <button type="button" class="btn btn-outline-primary">Submit</button>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+    <!-- ======= Frequently Asked Questioins Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questioins</h2>
+
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What are some preventive measures I can take to maintain good overall health?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               <ul>
+                  <li> Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.</li>
+                  <li>Engaging in regular physical activity or exercise.</li>
+                  <li> Getting recommended vaccinations and immunizations.</li>
+                  <li>Practicing good hygiene, such as washing hands frequently and covering your mouth when sneezing or coughing.</li>
+               </ul>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What should be my ideal daily nutritional intake for a healthy diet? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>The ideal daily nutritional intake for a healthy diet varies depending on factors such as age, gender, activity level, and any underlying health conditions, So diet should include:
+               <ul>
+                <li>A variety of fruits and vegetables.</li>
+                <li>Lean proteins, such as fish, poultry, beans, and nuts.</li>
+                <li>Low-fat dairy products or suitable alternatives.</li>
+                <li>Limited intake of saturated fats, trans fats, added sugars, and sodium.</li>
+                <li>Staying adequately hydrated by drinking water throughout the day.</li>
+                
+               </ul>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question"> What are the best sources of protein for a vegetarian or vegan diet? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Vegetarian and vegan protein sources include legumes, tofu, tempeh, seitan, quinoa, nuts, seeds, and plant-based protein powders. Incorporating a variety of these foods into your meals can help meet your protein needs.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question"> How can I lose weight in a healthy way?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                To lose weight in a healthy manner, focus on creating a calorie deficit through a combination of balanced diet and regular physical activity. Avoid crash diets and aim for gradual, sustainable weight loss.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What are the benefits of drinking enough water?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Drinking enough water helps maintain proper bodily functions, aids in digestion, promotes healthy skin, regulates body temperature, and supports overall well-being. Aim to drink at least 8 cups of water per day.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question"> Is snacking between meals healthy?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Snacking can be healthy if you choose nutritious options such as fruits, vegetables, yogurt, nuts, or whole-grain crackers. It can help curb hunger, maintain energy levels, and prevent overeating during main meals.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questioins Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+            
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>SmartDietician@gmail.com<br></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 9876543210<br></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+         
+                <strong>Phone:</strong> +91 9876543210<br>
+                <strong>Email:</strong> SmartDietician@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+       
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Smart Dietician</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+ 
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
